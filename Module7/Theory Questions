@@ -1,0 +1,27 @@
+
+Q9 - Stable vs Unstable Sorting:
+
+A sort is STABLE if equal elements maintain their original relative order.
+
+Bubble Sort    -> Stable
+Insertion Sort -> Stable
+Merge Sort     -> Stable
+Selection Sort -> Unstable
+Quick Sort     -> Unstable
+
+Example:
+arr = [(3,a), (1,b), (3,c)]
+Stable result:   [(1,b), (3,a), (3,c)]  -> a before c preserved
+Unstable result: [(1,b), (3,c), (3,a)]  -> a,c order changed
+
+
+Q10 - Time and Space Complexity:
+
+Algorithm       Best        Average     Worst       Space
+------------------------------------------------------------------
+Bubble Sort     O(n)        O(n^2)      O(n^2)      O(1)
+Selection Sort  O(n^2)      O(n^2)      O(n^2)      O(1)
+Insertion Sort  O(n)        O(n^2)      O(n^2)      O(1)
+Merge Sort      O(nlogn)    O(nlogn)    O(nlogn)    O(n)
+Quick Sort      O(nlogn)    O(nlogn)    O(n^2)      O(logn)
+
